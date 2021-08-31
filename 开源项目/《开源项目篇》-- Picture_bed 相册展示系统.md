@@ -3,7 +3,7 @@ layout: 《开源项目篇》-- Picture_bed 相册展示系统
 title:   《开源项目篇》-- Picture_bed 相册展示系统
 date:  2019-12-26 16:33:22
 categories: "开源项目"
-abbrlink: 061a
+abbrlink: 018a
 tags: 
 - PHP
 - Laravel

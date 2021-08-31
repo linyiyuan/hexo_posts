@@ -3,7 +3,7 @@ layout: 《工具篇》-- 使用supervisor来管理Linux的后台进程
 title:   《工具篇》-- 使用supervisor来管理Linux的后台进程
 date: 2019-12-19 16:33
 categories: "Linux"
-abbrlink: 031a
+abbrlink: 014a
 tags: 
 - Linux
 - 工具

@@ -3,7 +3,7 @@ layout: 《工具篇》-- 使用qshell批量下载七牛云储存桶资源
 title:   《工具篇》-- 使用qshell批量下载七牛云储存桶资源
 date: 2019-12-25 16:31:28
 categories: "Windows"
-abbrlink: 021a
+abbrlink: 017a
 tags: 
 - Windows
 - 工具

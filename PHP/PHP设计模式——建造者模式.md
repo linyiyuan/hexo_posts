@@ -3,7 +3,7 @@ layout: PHP设计模式——建造者模式
 title: PHP设计模式——建造者模式
 date: 2019-08-15 14:42:45
 categories: "PHP"
-abbrlink: 005a
+abbrlink: 006a
 tags: 
 - PHP
 - 设计模式

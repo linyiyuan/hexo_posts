@@ -3,7 +3,7 @@ layout: 深入理解PHP7变量的内部实现
 title:   深入理解PHP7变量的内部实现
 date: 2019-09-10 12:32:45
 categories: "PHP"
-abbrlink: 008a
+abbrlink: 009a
 tags: 
 - PHP
 - PHP源码解析

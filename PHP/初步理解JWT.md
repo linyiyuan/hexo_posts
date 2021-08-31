@@ -3,7 +3,7 @@ layout: 初步理解jwt
 title: 初步理解JWT
 date: 2019-07-24 11:32:27
 categories: "PHP"
-abbrlink: 001a
+abbrlink: 002a
 tags: 
 - PHP
 - Laravel

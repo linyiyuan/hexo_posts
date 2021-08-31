@@ -3,7 +3,7 @@ layout: Mysql汇总查询将两个结果集合并一行展示
 title:   Mysql汇总查询将两个结果集合并一行展示
 date: 2019-12-13 14:37:57
 categories: "MYSQL"
-abbrlink: 011c
+abbrlink: 013a
 tags: 
 - MYSQL
 - SQL语句

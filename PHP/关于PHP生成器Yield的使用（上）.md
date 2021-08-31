@@ -3,7 +3,7 @@ layout: 关于PHP生成器Yield的使用（上）
 title: 关于PHP生成器Yield的使用（上）
 date: 2019-09-07 15:42:45
 categories: "PHP"
-abbrlink: 006a
+abbrlink: 007a
 tags: 
 - PHP
 ---

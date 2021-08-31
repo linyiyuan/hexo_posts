@@ -3,7 +3,7 @@ title: Mysql 的事务四个特性以及事务的四个隔离级别
 tags: 
 	  - Mysql
 categories: "Mysql"
-abbrlink: 011a
+abbrlink: 001a
 date: 2019-07-23 14:37:57
 ---
 

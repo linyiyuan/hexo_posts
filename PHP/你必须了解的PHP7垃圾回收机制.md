@@ -3,7 +3,7 @@ layout: 你必须了解的PHP7垃圾回收机制
 title:   你必须了解的PHP7垃圾回收机制
 date: 2019-09-11 16:22:15
 categories: "PHP"
-abbrlink: 009a
+abbrlink: 010a
 tags: 
 - PHP
 - PHP源码解析

@@ -3,7 +3,7 @@ layout: (转载) S.O.L.I.D  PHP 面向对象设计的五个基准原则
 title: (转载) S.O.L.I.D  PHP 面向对象设计的五个基准原则
 date: 2019-08-13 14:42:45
 categories: "PHP"
-abbrlink: 004a
+abbrlink: 005a
 tags: 
 - PHP
 - 设计模式

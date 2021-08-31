@@ -3,7 +3,7 @@ layout: 记录一次关于Vue的打包调优过程
 title: 记录一次关于Vue的打包调优过程
 date: 2019-08-30 14:42:45
 categories: "Vue"
-abbrlink: 001b
+abbrlink: 016a
 tags: 
 - Vue
 - Webpack
