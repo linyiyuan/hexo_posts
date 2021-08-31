@@ -78,7 +78,7 @@ $$
 $$
 
 $$
-\displaystyle\sum_{i=1}^{n+1} d_h^i
+\sum_{i=1}^{n+1} d_h^i
 $$
 
 
@@ -92,22 +92,57 @@ $$
 
 ![在线公式编辑器](https://shmily-album.oss-cn-shenzhen.aliyuncs.com/photo_album_19/6b62a37898d23dc8e18eac51cb912f23.png)
 
-# 在HTML页面上的解析
+# Docsify上解析
 
-我的Markdown笔记最终也是要生成`docsify` 文档通过Web去访问的，所以最终访问的还是`HTML` 所以我就需要在`HTML` 去显示这些数学公式，在html页面上我们可以通过加以下代码
+由于我的Markdown笔记是基于`docsify` 上去构建的项目，所以在docsify上面也得解析我的数学公式，然而在翻阅了部分资料后，发现`docsify` 是解析不了`markdown`上面的$$符号的，所以只能通过配置`docsify`的配置，去自定义解析表达式
 
-```js
-  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
+首先我们在`index.html` head 去引入两个文件
 
-  <script type="text/x-mathjax-config">
+```html
+<link href="https://cdn.bootcss.com/KaTeX/0.10.0/katex.min.css" rel="stylesheet">
 
-      MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });
-
-  </script>
+<script src="https://cdn.bootcss.com/KaTeX/0.10.0/katex.min.js"></script>
 ```
 
-使得`HTML`页面能够正确显示数学公式
+然后在 `windows.$docsify` 函数体内添加下面的代码
 
+```js
+ markdown: {
+
+        renderer: {
+
+          code: function(code, lang) {
+
+            if (lang === "tex") {
+
+                return (
+
+                '<span class="tex">'+ katex.renderToString(code, {
+
+                    throwOnError: false
+
+                })+'</span>'
+
+                );
+
+            }
+
+            return this.origin.code.apply(this, arguments);
+
+          }
+
+        }
+
+      }
+```
+
+然后我们通过 ````tex ````进行包围，以质能转换公式为例 开头 去解析我们的Latex数学公式例如：
+
+\```tex
+  \sum_{i=1}^{n+1} d_h^i
+\```
+
+这样比用$包围麻烦，但好歹能用。
 # 参考资料
 1. [LaTex公式编辑器](https://www.latexlive.com/home)、
 2. [katex官方文档](https://katex.org/docs/supported.html)
